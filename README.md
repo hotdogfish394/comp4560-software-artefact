@@ -38,9 +38,11 @@ This section describes the files and directories included in your project.
 You will need to download and extract the zip files `data.zip` and `top_3.zip` to the `src` directory.
 The link for these files can be found here: https://drive.google.com/drive/folders/1AmCg_IFDaiDPt9ecrwKMDbRBUm7YhvwE?usp=sharing
 
-Afterwards, install project dependencies by running the following command in the root directory:
+Afterwards, create a Conda environment and then install project dependencies by running the following command in the root directory:
 
 ```bash
+conda create -n lightning python=3.8
+conda activate lightning
 pip install -r requirements.txt
 ```
 
